@@ -8,8 +8,8 @@
 
 *, html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,header,nav,aside,footer,option,a,.header,.gnb, span, .login-box, .footer, .inner,.btn-box,input{margin:0; padding:0; font-size: 15px; box-sizing: border-box; box-sizing: -ms-border-box;  font-family: 'AppleNeo','KoPubDotum', 'Noto Sans KR', 'MalgunGothic', 'sans-serif'; -webkit-font-size-adjust:none; font-weight: 400;word-break: keep-all; touch-action: pan-y;}
 body,h1,h2,h3,h4,input,button{color:#000;-webkit-font-size-adjust: 100%;}
-html{height:100vh;}
 html,body{width:100%; margin:0 auto;}
+html{height:100vh;}
 body{background-color:#fff;*word-break:break-all;-ms-word-break:break-all; font-family:'Calibri', 'MalgunGothic', 'sans-serif';text-align:left; }
 img,fieldset,iframe{border:0 none}
 li{list-style:none}
@@ -39,7 +39,7 @@ input, select, textarea, button, a, label {-webkit-tap-highlight-color:rgba(0,0,
 
 .padding-none{padding: 0;}
 
-.inner{width: 1200px; margin: 0 auto;}
+.inner{width:100%; width: 1200px; margin: 0 auto; overflow-x: auto;}
 .display-on{display:block !important;}
 .display-none{display:none !important;}
 .clear-both::after{content: ''; width:0; height: 0; display: block; visibility: hidden; clear: both; }
