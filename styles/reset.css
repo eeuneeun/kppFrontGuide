@@ -34,12 +34,13 @@ input, select, textarea, button, a, label {-webkit-tap-highlight-color:rgba(0,0,
 .flex-col-center{display: flex; align-items: center; justify-content: space-around; flex-direction: column;}
 .flex-hoz-right{justify-content: flex-end !important;}
 .flex-between{width: 100%; display: flex; align-items: center; justify-content: space-between;}
-.flex-start{width: 100%; display: flex; align-items: center; justify-content: flex-start;}
+.flex-start{display: flex; align-items: center; justify-content: flex-start;}
+.align-start{align-items: flex-start;}
 .flex-item{align-self: center;}
 
 .padding-none{padding: 0;}
 
-.inner{width:100%; width: 1200px; margin: 0 auto; overflow-x: auto;}
+.inner{width:100%; width: 1200px; margin: 0 auto; overflow-x: auto; position: relative;}
 .display-on{display:block !important;}
 .display-none{display:none !important;}
 .clear-both::after{content: ''; width:0; height: 0; display: block; visibility: hidden; clear: both; }

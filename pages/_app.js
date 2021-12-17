@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     <div className='wrapper'>
       <Header />
 
-      <div className='contents'>
+      <div className='contents inner'>
         <Component {...pageProps} />
       </div>
       <Footer />

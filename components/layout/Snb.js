@@ -1,5 +1,27 @@
 import Link from 'next/link';
 
+export function SnbForFolder() {
+  return (
+    <nav className='snb'>
+      <section>
+        <h2>KPP 기본 폴더 구조</h2>
+        <ol className='flex-col-center'>
+          <li>
+            <Link href='/folder/front'>
+              <a>KPP NEXTJS FRONTEND</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/folder/back'>
+              <a>KPP NESTJS BACKEND</a>
+            </Link>
+          </li>
+        </ol>
+      </section>
+    </nav>
+  );
+}
+
 export function SnbForGuide() {
   return (
     <nav className='snb'>
