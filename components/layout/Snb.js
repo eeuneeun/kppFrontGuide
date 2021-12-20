@@ -29,22 +29,22 @@ export function SnbForGuide() {
         <h2>KPP 가이드 라인</h2>
         <ol className='flex-col-center'>
           <li>
-            <Link href='/sample/atom/button'>
+            <Link href='/guide/layout'>
               <a>화면 레이아웃 구조</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/button'>
+            <Link href='/guide/css'>
               <a>CSS 작업 규칙</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/button'>
+            <Link href='/guide/redux'>
               <a>Redux 디자인 패턴</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/button'>
+            <Link href='/guide/axios'>
               <a>Axios API 호출 패턴</a>
             </Link>
           </li>
@@ -61,42 +61,42 @@ export function SnbForSamlpe() {
         <h2>ATOMS</h2>
         <ol className='flex-col-center'>
           <li>
-            <Link href='/sample/atom/button'>
+            <Link href='/sample/atoms/button'>
               <a>Button</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/badge'>
+            <Link href='/sample/atoms/badge'>
               <a>Badge</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/checkbox'>
+            <Link href='/sample/atoms/checkbox'>
               <a>CheckBox</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/selectbox'>
+            <Link href='/sample/atoms/selectbox'>
               <a>SelectBox</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/switch'>
+            <Link href='/sample/atoms/switch'>
               <a>Switch</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/textInput'>
+            <Link href='/sample/atoms/textInput'>
               <a>TextInput</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/valmsg'>
+            <Link href='/sample/atoms/valmsg'>
               <a>ValidationMsg</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/atom/selectbox'>
+            <Link href='/sample/atoms/selectbox'>
               <a>SelectBox</a>
             </Link>
           </li>
@@ -108,42 +108,27 @@ export function SnbForSamlpe() {
         <ol className='flex-col-center'>
           <li>
             <Link href='/sample/molecules'>
-              <a>Button</a>
+              <a>BreadScrumb</a>
             </Link>
           </li>
           <li>
             <Link href='/sample/molecules'>
-              <a>Badge</a>
+              <a>BtnWrap</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/molecules/checkbox'>
-              <a>CheckBox</a>
+            <Link href='/sample/molecules/'>
+              <a>InputPair</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/molecules/selectbox'>
-              <a>SelectBox</a>
+            <Link href='/sample/molecules/'>
+              <a>MiddleTitle</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/molecules/switch'>
-              <a>Switch</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/sample/molecules/textInput'>
-              <a>TextInput</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/sample/molecules/valmsg'>
-              <a>ValidationMsg</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/sample/molecules/selectbox'>
-              <a>SelectBox</a>
+            <Link href='/sample/molecules/stepper'>
+              <a>Stepper</a>
             </Link>
           </li>
         </ol>
@@ -153,43 +138,53 @@ export function SnbForSamlpe() {
         <h2>ORGANISMS</h2>
         <ol className='flex-col-center'>
           <li>
-            <Link href='/sample/organisms/button'>
-              <a>Button</a>
+            <Link href='/sample/organisms/boardList'>
+              <a>BoardList</a>
             </Link>
           </li>
           <li>
-            <Link href='/sample/organisms/badge'>
-              <a>Badge</a>
+            <Link href='/sample/organisms/calendar'>
+              <a>Calendar</a>
             </Link>
           </li>
           <li>
             <Link href='/sample/organisms/checkbox'>
-              <a>CheckBox</a>
+              <a>Chart</a>
             </Link>
           </li>
           <li>
             <Link href='/sample/organisms/selectbox'>
-              <a>SelectBox</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/sample/organisms/switch'>
-              <a>Switch</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/sample/organisms/textInput'>
-              <a>TextInput</a>
+              <a>Modal</a>
             </Link>
           </li>
           <li>
             <Link href='/sample/organisms/valmsg'>
-              <a>ValidationMsg</a>
+              <a>PageTab</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/sample/organisms/switch'>
+              <a>Popper</a>
             </Link>
           </li>
           <li>
             <Link href='/sample/organisms/selectbox'>
-              <a>SelectBox</a>
+              <a>PlantSearch</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/sample/organisms/textInput'>
+              <a>Slider</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/sample/organisms/selectbox'>
+              <a>Spinner</a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/sample/organisms/selectbox'>
+              <a>ZipCode</a>
             </Link>
           </li>
         </ol>
@@ -200,12 +195,12 @@ export function SnbForSamlpe() {
         <ol className='flex-col-center'>
           <li>
             <Link href='/sample/organisms/button'>
-              <a>Button</a>
+              <a>ContractAdPannel</a>
             </Link>
           </li>
           <li>
             <Link href='/sample/organisms/badge'>
-              <a>Badge</a>
+              <a>FormTemplate</a>
             </Link>
           </li>
           <li>
@@ -215,27 +210,12 @@ export function SnbForSamlpe() {
           </li>
           <li>
             <Link href='/sample/organisms/selectbox'>
-              <a>SelectBox</a>
+              <a>PlantList</a>
             </Link>
           </li>
           <li>
             <Link href='/sample/organisms/switch'>
-              <a>Switch</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/sample/organisms/textInput'>
-              <a>TextInput</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/sample/organisms/valmsg'>
-              <a>ValidationMsg</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/sample/organisms/selectbox'>
-              <a>SelectBox</a>
+              <a>RealTimeInfo</a>
             </Link>
           </li>
         </ol>

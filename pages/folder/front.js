@@ -16,8 +16,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import FolderIcon from '@mui/icons-material/Folder';
 import CodeIcon from '@mui/icons-material/Code';
-import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import CssIcon from '@mui/icons-material/Css';
+import TagIcon from '@mui/icons-material/Tag';
 import FontDownloadOutlinedIcon from '@mui/icons-material/FontDownloadOutlined';
 import ImageOutlinedIcon from '@mui/icons-material/ImageOutlined';
 
@@ -104,7 +103,7 @@ export default function front() {
           <title>KPP FRONTEND GUIDE - 폴더 구조</title>
         </Head>
         <section className='page-title'>
-          <h3>기본 폴더</h3>
+          <h3>Next JS Front End Project</h3>
           <p>- KPP FRONTEND PROJECT 의 각 디렉토리 역할에 대한 구조 및 설명</p>
         </section>
         <section>
@@ -374,27 +373,27 @@ export default function front() {
                 <StyledTreeItem
                   nodeId='22'
                   labelText='reset'
-                  labelIcon={CssIcon}
+                  labelIcon={TagIcon}
                 />
                 <StyledTreeItem
                   nodeId='23'
                   labelText='resource - 자주 사용되는 폰트, 색상, 기본 틀을 이루는 요소 들에 대한 정의'
-                  labelIcon={CssIcon}
+                  labelIcon={TagIcon}
                 />
                 <StyledTreeItem
                   nodeId='24'
                   labelText='components - 재사용되는 컴포넌트들에 대한 정의'
-                  labelIcon={CssIcon}
+                  labelIcon={TagIcon}
                 />
                 <StyledTreeItem
                   nodeId='25'
                   labelText='globals - 전역으로 쓰일, 모든 페이지에 대한 스타일 정의'
-                  labelIcon={CssIcon}
+                  labelIcon={TagIcon}
                 />
                 <StyledTreeItem
                   nodeId='26'
                   labelText='responsive - 기기별 사이즈에 대한 대응을 정의'
-                  labelIcon={CssIcon}
+                  labelIcon={TagIcon}
                 />
               </StyledTreeItem>
             </TreeView>

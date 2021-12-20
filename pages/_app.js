@@ -1,5 +1,6 @@
 import Footer from '../components/layout/Footer';
 import Header from '../components/layout/Header';
+import 'react-datepicker/dist/react-datepicker.css';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {

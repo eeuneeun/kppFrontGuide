@@ -101,11 +101,13 @@ export default function back() {
       <SnbForFolder />
       <div className='folder'>
         <Head>
-          <title>KPP FRONTEND GUIDE - 폴더 구조</title>
+          <title>KPP BACKEND GUIDE - 폴더 구조</title>
         </Head>
         <section className='page-title'>
           <h3>기본 폴더</h3>
-          <p>- KPP FRONTEND PROJECT 의 각 디렉토리 역할에 대한 구조 및 설명</p>
+          <p>
+            - Nest JS Back End Project 의 각 디렉토리 역할에 대한 구조 및 설명
+          </p>
         </section>
 
         <StyledEngineProvider injectFirst>

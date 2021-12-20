@@ -1,7 +1,7 @@
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
 export default function Example(props) {
   return (
-    <dl className='example'>
+    <dl className={`example ${props.className ? props.className : ''}`}>
       <dt className='flex-start'>
         <span className='flex-start'>
           <AutoFixHighIcon />
